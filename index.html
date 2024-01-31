@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор расходов при покупке авто из США в Беларусь, Минск.</title>
+    <meta name="description" content="Специально для вас доступен калькулятор всех расходов при покупке автомобиля из США в Беларусь, Минск.">
+    <meta name="robots" content="index, follow"/>
+
+    <link rel="icon" href="https://carsby.by/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <link rel="stylesheet" href="styles_for_app.css" media="screen">
+
+
+     <link rel="stylesheet" href="app.css" /> 
+ <link rel="stylesheet" href="chunk-vendors.css" />
+
+    </head>
+    
+<body class="page-calc">
+
+<header id="layout-header" class="header">
+            <div class="header__main">
+   
+  <div class="dropdown-wrapper">
+
+    <div id="dropdown-apps" class="dropdown-menu medium" style="display:none;">
+      <ul class="two-column">
+        <li>
+          <a href="/calc">
+            <span class="headline">Калькулятор</span>
+            <span class="subtitle dnpc_ua dnmob_ua">Калькулятор всех расходов по автомобилю</span>
+          </a>
+
+      </ul>
+          </div>
+  </div>
+    </div>
+
+</header>
+
+<!-- Main -->
+<main class="main">
+    <section id="layout-content">
+        <script>
+        window.wmCalculatorDefaults = {
+        transport: 'auto',
+        auction: 'Copart',
+
+        deliveryTo:'by',
+                }
+</script>
+
+    <section id="calc" class="section hero_services_witout_margin">
+        <div class="container">
+            <div class="hero__wrap mt-40">
+                <div id="wmCalculator" class="calc_container"></div>
+            </div>
+        </div>
+    </section>
+</section>
+    
+    </main>
+
+<!-- Scripts  -->
+
+<script src="app.js"></script>
+<script src="chunk-vendors.js"></script>
+
+</body>
+</html>
